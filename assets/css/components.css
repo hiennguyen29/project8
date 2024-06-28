@@ -1,0 +1,13 @@
+/* headers, footers, buttons are components */
+.blog__btn {
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.blog__btn--danger {
+    background-color: red;
+}
+
+.blog__btn--warning {
+    background-color: yellow;
+}
