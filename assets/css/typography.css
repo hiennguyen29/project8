@@ -1,10 +1,79 @@
 h1 {
-    color: var(--primary-color);
-    text-align: center;
-    font-size:60px;
-    text-transform: capitalize;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 60px;
+  text-transform: capitalize;
 }
 
-.text-2 {
-    /* styles */
+.content button {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin: 20px;
+}
+
+footer {
+  height: 180px;
+  background-color: var(--primary-color);
+}
+
+.content h2 {
+  margin: 10px;
+  background-color: var(--primary-color);
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+h1:hover {
+  color: #000;
+}
+
+/* pseudo elements */
+/* ::after this doesn't mean after <h1>, it means after h1 content and ::before */
+/* h1::after {
+    content: "page";
+    display:block;
+}
+
+h1::before {
+    content: "hello";
+}
+Usually we don't do this: content is content    
+*/
+
+/* p::before {
+    content:"\260A";
+    font-size: 24px;
+    color: rgb(153, 30, 169);
+} */
+
+/* h1::before {
+    content:"\2602";
+    color:blue;
+} */
+
+h1::before {
+   content:"";
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   background-color: red;
+   margin-right: 20px;
+   border-radius: 50%;
+}
+
+/* .gallery p::first-letter {
+    background-color: #f0f;
+    font-size: 40px;
+} */
+
+/* .gallery p::first-line {
+background-color: #f00;
+} */
+
+.gallery p::selection {
+    background-color: rgb(33, 155, 141);
+    color: #fff;
 }

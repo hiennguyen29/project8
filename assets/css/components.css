@@ -1,13 +1,38 @@
-/* headers, footers, buttons are components */
-.blog__btn {
-    border: 2px solid;
-    border-radius: 5px;
+body {
+background-color: var(--secondary-color);
+
+
 }
 
-.blog__btn--danger {
-    background-color: red;
+header {
+    height: 150px;
+    background-color:var(--primary-color);
 }
 
-.blog__btn--warning {
-    background-color: yellow;
+nav {
+    height: 100%;
+    text-align: center;
+    line-height: 150px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 0 30px;
+    color: white;
+}
+
+.content img {
+    border: 5px solid var(--primary-color);
+    border-radius: 20px;
+}
+
+.content button {
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 20px;
 }

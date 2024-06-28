@@ -1,5 +1,7 @@
 :root{
-    --primary-color:#6c4995;
-    --secondary-color:#fff;
+    --primary-color:#25334c;
+    --secondary-color:#ddd2d2;
+    --site-width: 1600px;
+    /* --font-family or anything goes here */
     /* css variable */
 }
