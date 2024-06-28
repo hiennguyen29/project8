@@ -1,5 +1,24 @@
 .container {
-    max-width: var(--site-width);
-    margin: 0 auto;
-    padding: 0 10px;
+  max-width: var(--site-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.row {
+  border: 10px solid;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+p {
+  float: left;
+  width: 50%;
+}
+
+.clearfix {
+  clear: both;
 }
